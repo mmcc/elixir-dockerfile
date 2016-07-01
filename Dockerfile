@@ -18,7 +18,7 @@ RUN \
     update-ca-certificates --fresh && \
     rm -rf /var/cache/apk/*
 
-RUN wget -q https://github.com/elixir-lang/elixir/releases/download/v1.3.0/Precompiled.zip && \
+RUN wget -q https://github.com/elixir-lang/elixir/releases/download/v1.3.1/Precompiled.zip && \
     unzip Precompiled.zip && \
     rm -f Precompiled.zip && \
     ls -la bin && \
